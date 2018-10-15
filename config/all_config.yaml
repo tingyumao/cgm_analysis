@@ -1,0 +1,24 @@
+DATA:
+  root_dir: ../data/type1
+  subject3:
+    begin_date: '2018-06-25 00:00:00'
+    end_date: '2018-07-07 00:00:00'
+  subject4:
+    begin_date: '2018-06-28 00:00:00'
+    end_date: '2018-07-07 00:00:00'
+  subject5:
+    begin_date: '2018-06-28 00:00:00'
+    end_date: '2018-07-12 00:00:00'
+  total_num_subject: 6
+NET:
+  HIST_LENGTH: 16
+  NUM_HIDDEN: 32
+  SEQUENCE_LENGTH: 32
+TEST:
+  BATCH_SIZE: 1
+TRAIN:
+  BATCH_SIZE: 16
+  EPOCHS: 20
+  L2_REG_WEIGHT: 0.1
+  LEARNING_RATE: 0.001
+  PRETRAIN_MODEL_PREFIX: ./models/pretrained
