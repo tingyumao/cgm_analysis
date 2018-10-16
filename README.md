@@ -1,4 +1,4 @@
-# cgm_analysis
+# CGM Analysis
 
 ### Data
 
@@ -23,3 +23,6 @@ python src/test.py
 python src/test_outcomes.py
 ```
 
+### Obsolete programs
+
+The original program is put under the "obsolete" directory.
